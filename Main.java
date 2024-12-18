@@ -21,5 +21,16 @@ public class Main{
         String texto = text.replace("Hola", "Chao");
         System.out.println(texto);
 
+        System.out.println(texto.endsWith("Uno!"));
+        System.out.println(texto.startsWith("Ch"));
+        System.out.println((texto.contains("und")));
+        System.out.println(texto.indexOf("Mundo"));
+
+        System.out.println(texto.toUpperCase());
+        System.out.println(texto.toLowerCase());
+
+        String malo = "    Chanchito fELIZ    ";
+        System.out.println(malo.trim());
+
     }
 }
